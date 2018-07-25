@@ -17,7 +17,7 @@
 -import(riak_search_utils, [to_binary/1]).
 
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 -define(STREAM_TIMEOUT, 15000).
 
 preplan(Op, State) -> 

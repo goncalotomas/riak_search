@@ -10,7 +10,7 @@
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").
 -endif.
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 
 %% Convert all fields to list.
 -import(riak_search_utils, [to_list/1, to_binary/1]).

@@ -13,7 +13,7 @@
          op_to_module/1
         ]).
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 
 extract_scoring_props(Ops) when is_list(Ops) ->
     [extract_scoring_props(Op) || Op <- Ops];

@@ -24,7 +24,7 @@
 
 -include_lib("eqc/include/eqc.hrl").
 -include_lib("eunit/include/eunit.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 -include("riak_search.hrl").
 
 -define(TEST_EUNIT_NODE, 'eunit@127.0.0.1').

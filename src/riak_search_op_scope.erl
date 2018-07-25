@@ -15,7 +15,7 @@
         ]).
 
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 
 extract_scoring_props(Op) ->
     riak_search_op:extract_scoring_props(Op#scope.ops).

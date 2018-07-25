@@ -12,7 +12,7 @@
          chain_op/4
         ]).
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 -define(INDEX_DOCID(Term), ({element(1, Term), element(2, Term)})).
 
 extract_scoring_props(Op) ->

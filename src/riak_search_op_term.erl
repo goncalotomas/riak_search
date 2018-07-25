@@ -20,7 +20,7 @@
 %% OutputPid.
 
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 
 extract_scoring_props(#term{doc_freq=Frequency, boost=Boost}) ->
     {Frequency, Boost}.

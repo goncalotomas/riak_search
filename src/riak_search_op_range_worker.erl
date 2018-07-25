@@ -10,7 +10,7 @@
         ]).
 
 -include("riak_search.hrl").
--include_lib("lucene_parser/include/lucene_parser.hrl").
+-include("lucene_parser.hrl").
 
 chain_op(Op, OutputPid, OutputRef, State) ->
     F = fun() -> 
